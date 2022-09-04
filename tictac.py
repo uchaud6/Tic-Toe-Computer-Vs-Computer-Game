@@ -164,9 +164,3 @@ class Board:
             ready = input("Next run? (y/n) ")
             if ready.lower() == "n":
                 break
-
-
-board =  Board()
-board.testGame(4)
-
-
